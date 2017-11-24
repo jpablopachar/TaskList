@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const index = require('./routes/index');
-const task = require('./routes/task');
+const task = require('./routes/tasks');
 
 const port = 3000;
 const app = express();
@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 // Rutas
 app.use('/', index);
-app.use('/api', tasks);
+app.use('/api', task);
 
 app.listen(port, () => {
   console.log('Servidor en puerto ' + port);
