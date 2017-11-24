@@ -1,0 +1,19 @@
+{
+  "name": "tasklist",
+  "version": "1.0.0",
+  "description": "Gestor simple de tareas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpablopachar/TaskList.git"
+  },
+  "author": "jpablopachar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpablopachar/TaskList/issues"
+  },
+  "homepage": "https://github.com/jpablopachar/TaskList#readme"
+}
