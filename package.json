@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/jpablopachar/TaskList/issues"
   },
-  "homepage": "https://github.com/jpablopachar/TaskList#readme"
+  "homepage": "https://github.com/jpablopachar/TaskList#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongojs": "^2.4.1"
+  }
 }
